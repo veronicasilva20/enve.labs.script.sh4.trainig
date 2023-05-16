@@ -45,18 +45,20 @@
 
 
 
-    // var num1 = parseInt(prompt('ingresar nota1'));
-    // var num2 = parseInt(prompt('ingresar nota2'));
-    // var num3 = parseInt(prompt('ingresar nota3'));
+    var num1 = parseInt(prompt('ingresar nota1'));
+    var num2 = parseInt(prompt('ingresar nota2'));
+    var num3 = parseInt(prompt('ingresar nota3'));
 
-    // // console.log(num1);
-    // // console.log(num2);
-    // // console.log(num3);
+    console.log(num1); 
+    console.log(num2);
+    console.log(num3);
     
     
 
-    // var suma = num1+num2+mum
+    var suma = num1+num2+num3;
+    console.log(suma);
 
-    // console.log('nota final del trimestre');
+      var promedio = suma /3;
+    console.log('nota final del trimestre es :' + promedio);
 
 
